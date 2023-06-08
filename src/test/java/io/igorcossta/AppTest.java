@@ -60,7 +60,7 @@ public class AppTest {
             @Test
             @DisplayName("it is no longer empty")
             void isNotEmpty() {
-                assertTrue(stack.isEmpty());
+                assertFalse(stack.isEmpty());
             }
 
             @Test
